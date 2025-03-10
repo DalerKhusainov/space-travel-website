@@ -2,8 +2,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="container grid">
-      <h1 className="">Hello World</h1>
+    <div className="numbered-title">
+      <span>01</span>
     </div>
   );
 }
