@@ -1,9 +1,10 @@
 import "./App.css";
+import Button from "./components/button/Button";
 
 function App() {
   return (
-    <div className="numbered-title">
-      <span>01</span>
+    <div>
+      <Button>Explore</Button>
     </div>
   );
 }
