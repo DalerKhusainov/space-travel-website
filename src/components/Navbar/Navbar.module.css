@@ -1,0 +1,33 @@
+.primaryNavigation {
+  --gap: 8rem;
+  --underline-gap: 2rem;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+
+.link {
+  text-decoration: none;
+  padding: var(--underline-gap, 1rem) 0;
+  border-bottom: 0.2em solid hsl(var(--clr-white) / 0);
+}
+
+.link:hover {
+  border-color: hsl(var(--clr-white) / 0.25);
+}
+
+.active {
+  text-decoration: none;
+  padding: var(--underline-gap, 1rem) 0;
+  border-bottom: 0.2em solid hsl(var(--clr-white) / 1);
+}
+
+.active:hover {
+  border-bottom: 0.2em solid hsl(var(--clr-white) / 1);
+}
+
+.primaryNavigation .link > span {
+  font-weight: 700;
+  margin-right: 0.5em;
+}
