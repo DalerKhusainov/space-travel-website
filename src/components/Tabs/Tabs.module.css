@@ -1,0 +1,22 @@
+.tabsList {
+  --gap: 2rem;
+}
+
+.tab {
+  text-decoration: none;
+  padding: var(--underline-gap, 1rem) 0;
+  border-bottom: 0.2em solid hsl(var(--clr-white) / 0);
+}
+
+.tab:hover {
+  border-color: hsl(var(--clr-white) / 0.25);
+}
+
+.activeTab {
+  color: hsl(var(--clr-white) / 1);
+  border-bottom: 0.2em solid hsl(var(--clr-white) / 1);
+}
+
+.activeTab:hover {
+  border-color: hsl(var(--clr-white) / 1);
+}
